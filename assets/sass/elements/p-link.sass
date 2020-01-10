@@ -1,0 +1,23 @@
+@import '@/assets/sass/variables.sass'
+
+.p-link
+  font-family: $font-family-regular
+  font-size: $font-regular
+  padding: $space-micro $space-small
+  text-decoration: underline
+  color: $color-primary
+  cursor: pointer
+  &:hover
+    color: $color-light
+  
+  &--large
+    font-size: $font-large
+  
+  &--outline
+    border: $border-thin solid $color-primary
+    border-radius: $border-radius
+    padding: $space-micro $space-regular
+    text-decoration: none
+    &:hover
+      color: $color-primary
+      background-color: $color-light-transparent
